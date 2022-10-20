@@ -1,0 +1,110 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 2vmin;
+    font-size: 15px;
+}
+
+ul {
+    list-style-image: url("https://cdn.glitch.global/14cee9c7-aff7-4577-b63d-590a8c685df7/check1.png?v=1666293794055");
+    color: grey;
+}
+
+.backCard {
+    float: left;
+    width: 100%;
+    background: lavenderblush;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 2vmin 0;
+    overflow: hidden;
+}
+
+.backCard::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.leftSection {
+    width: 30%;
+    display: inline-block;
+    padding: 2vmin;
+}
+
+.rightSection {
+    width: 30%;
+    float: right;
+    padding: 2vmin;
+}
+
+.centreSection {
+    float: left;
+    width: 20%;
+    color: white;
+    background: blueviolet;
+    padding: 2vmin;
+    border-radius: 30px;
+    position: absolute;
+    display: block;
+    left: 35%;
+}
+
+.centreSection::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mostPop {
+    background: white;
+    color: blueviolet;
+    float: right;
+    border-radius: 30px;
+    border: none;
+    font-size: small;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.grade {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    display: inline-block;
+}
+
+h4.week {
+    display: inline-block;
+}
+
+.continue {
+    background-color: indigo;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.centreList {
+    list-style-image: url("https://cdn.glitch.global/14cee9c7-aff7-4577-b63d-590a8c685df7/check2.png?v=1666293794054");
+    color: white;
+}
