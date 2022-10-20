@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-    list-style-image: url("https://cdn.glitch.global/14cee9c7-aff7-4577-b63d-590a8c685df7/check1.png?v=1666293794055");
+    list-style-image: url("check1.png");
     color: grey;
 }
 
@@ -105,6 +105,6 @@ h4.week {
 }
 
 .centreList {
-    list-style-image: url("https://cdn.glitch.global/14cee9c7-aff7-4577-b63d-590a8c685df7/check2.png?v=1666293794054");
+    list-style-image: url("check2.png");
     color: white;
 }
