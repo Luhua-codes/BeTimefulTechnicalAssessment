@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 2vmin;
     font-size: 15px;
+    height: 100%;
+    background-color: lightyellow;
+    background-image: linear-gradient(white, lightyellow, #ece1ed, #b6a9b8, #ad99a3, #e884b8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -9,7 +14,7 @@ body {
     position: absolute;
 }
 
-p{
+.membershipEndMessage{
     text-align: center;
     height: 100px;
     font-weight: 500;
@@ -21,13 +26,16 @@ p{
 
 ul {
     list-style-image: url("check1.png");
-    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #848199;
 }
 
 .backCard {
     float: left;
     width: 67%;
-    background: lavenderblush;
+    background: #F2F2F2;
     display: inline-block;
     border-radius: 30px;
     margin: 2vmin 0;
@@ -43,20 +51,20 @@ ul {
 }
 
 .leftSection {
-    width: 30%;
+    width: 29%;
     display: inline-block;
     padding: 2vmin;
 }
 
 .rightSection {
-    width: 30%;
+    width: 27%;
     float: right;
-    padding: 2vmin;
+    padding: 2vmin 1px 2vmin 2vmin;
 }
 
 .centreSection {
     float: left;
-    width: 20%;
+    width: 22%;
     color: white;
     background: #8C52FF;
     padding: 2vmin;
@@ -72,30 +80,43 @@ ul {
     display: table;
 }
 
-.mostPop {
-    background: white;
-    color: blueviolet;
-    float: right;
-    border-radius: 30px;
-    border: none;
-    font-size: small;
-    font-weight: bold;
-    padding: 7px;
-}
-
-.grade {
-    text-align: center;
-    background-color: grey;
+button {
+    background-color: #231D4F;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 24px;
     color: white;
     padding: 10px;
-    border-radius: 30px;
     border: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    margin-top: 2vmin;
+    width: 94%;
+
+    font-weight: 500;
     font-size: 15px;
-    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+
+.mostPop {
+    background: white;
+    float: right;
+    border-radius: 14px;
+    border: none;
+    padding: 5px 13px;
+    width: auto;
+    opacity: 1;
+    margin-top: 1px;
+
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #8C52FF;
 }
 
 h1 {
@@ -107,37 +128,40 @@ h1 {
 }
 
 h2 {
-    height: 42px;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 42px;
+    line-height: 39px;
     color: #231D4F;
+    margin-top: 1vmin;
+    margin-bottom: 0px;
 }
 
-h3 {
-    display: inline-block;
+.browserMobilePlan{
+    color: white;
 }
 
-h4.week {
+.weeklyPrice{
     display: inline-block;
+    font-weight: 600;
+    line-height: 46px;
+    padding-top: 2vmin;
+    color: white;
+}
+
+.perWeek {
+    display: inline;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
 }
 
 .continue {
-    background-color: indigo;
-    color: white;
-    border-radius: 30px;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    font-size: 15px;
-    font-weight: bold;
+    background: #4919AA;
+    opacity: 1;
 }
 
 .centreList {
     list-style-image: url("check2.png");
     color: white;
-}
-
-@media screen and (max-width: 1072px) {
 }
